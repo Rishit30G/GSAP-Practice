@@ -54,7 +54,7 @@ export default function Home() {
   gsap.registerPlugin(ScrollTrigger, SplitText);
 
   useGSAP(() => {
-    const pinDistance = window.innerHeight * slides.length;
+    const pinDistance = window.innerHeight * (slides.length);
     const progressBar = document.querySelector('.slider-progress');
     const sliderImages = document.querySelector('.slider-images');
     const sliderTitle = document.querySelector('.slider-title');
@@ -96,7 +96,7 @@ export default function Home() {
       newSliderImage.src = slides[index].image;
       newSliderImage.alt = `Slide ${index + 1}`;
 
-      gsap.set(newSliderImage, {
+      gsap.from(newSliderImage, {
         opacity: 0,
         scale: 1.1,
       });
@@ -175,14 +175,12 @@ export default function Home() {
         mask: 'lines',
       });
 
-      gsap.set(currentSplit.lines, {
+      gsap.from(currentSplit.lines, {
         yPercent: 100,
-        opacity: 0,
       });
 
       gsap.to(currentSplit.lines, {
         yPercent: 0,
-        opacity: 1,
         duration: 0.8,
         stagger: 0.1,
         ease: 'power3.out',
@@ -204,7 +202,7 @@ export default function Home() {
         });
 
         const currentSlide = Math.floor(self.progress * slides.length);
-
+        
         if (activeSlide !== currentSlide && currentSlide < slides.length) {
           activeSlide = currentSlide;
           animateNewSlide(activeSlide);
