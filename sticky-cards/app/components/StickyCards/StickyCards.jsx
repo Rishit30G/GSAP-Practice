@@ -53,7 +53,6 @@ const StickyCards = () => {
                 trigger: cards[index + 1], 
                 start: "top bottom", 
                 end: "top top", 
-                markers: true,
                 onUpdate: (self) => {
                     const progress = self.progress; 
                     const scale = 1 - progress * 0.25; 

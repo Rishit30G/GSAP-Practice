@@ -51,7 +51,6 @@ ScrollTrigger.matchMedia({
         start: 'top bottom',
         end: 'center center',
         scrub: true,
-        markers: true,
       },
       y: '308vh',
       width: '42vw',
