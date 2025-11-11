@@ -52,6 +52,12 @@ https://github.com/user-attachments/assets/4f377367-00dc-49b0-b0a4-be34d7382164
 
 https://github.com/user-attachments/assets/5787c0d2-ab4f-414f-9bf4-e918707c76d1
 
+### Horizontal Parallax 
+
+https://github.com/user-attachments/assets/fec05f62-ac6a-41e1-b5cc-8e1cb0601df8
+
+
+
 
 
 
