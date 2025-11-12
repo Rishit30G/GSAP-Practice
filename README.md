@@ -56,6 +56,10 @@ https://github.com/user-attachments/assets/5787c0d2-ab4f-414f-9bf4-e918707c76d1
 
 https://github.com/user-attachments/assets/fec05f62-ac6a-41e1-b5cc-8e1cb0601df8
 
+### Reveal Animation
+
+https://github.com/user-attachments/assets/9948f75a-f30e-4870-9b1e-48d7602e843d
+
 
 
 
