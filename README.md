@@ -68,6 +68,11 @@ https://github.com/user-attachments/assets/b09c846f-5f9a-47a1-9c94-7abb28890860
 
 https://github.com/user-attachments/assets/8d8b0149-a947-44f8-8069-76227712f22a
 
+### Page Reveal 2 
+
+https://github.com/user-attachments/assets/96c73f88-d0a3-4413-9972-299659b75021
+
+
 
 
 
