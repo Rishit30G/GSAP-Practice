@@ -64,6 +64,10 @@ https://github.com/user-attachments/assets/9948f75a-f30e-4870-9b1e-48d7602e843d
 
 https://github.com/user-attachments/assets/b09c846f-5f9a-47a1-9c94-7abb28890860
 
+### Card Scroll Trigger 
+
+https://github.com/user-attachments/assets/8d8b0149-a947-44f8-8069-76227712f22a
+
 
 
 
