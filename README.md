@@ -84,6 +84,12 @@ https://github.com/user-attachments/assets/8ed6436a-444c-4c76-a704-edd6611ced1a
 
 https://github.com/user-attachments/assets/826c7daf-cfb0-4e0a-99a3-665774b7cfe9
 
+### Landing Page Reveal 
+
+https://github.com/user-attachments/assets/7b37d21e-4021-48c6-8862-c0f5485be1d2
+
+
+
 
 
 
