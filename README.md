@@ -88,7 +88,10 @@ https://github.com/user-attachments/assets/826c7daf-cfb0-4e0a-99a3-665774b7cfe9
 
 https://github.com/user-attachments/assets/7b37d21e-4021-48c6-8862-c0f5485be1d2
 
+### Card Scroll 2
 
+
+https://github.com/user-attachments/assets/69445252-e057-43db-93c0-4c07118cdafb
 
 
 
