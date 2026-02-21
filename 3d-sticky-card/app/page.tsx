@@ -27,7 +27,7 @@ export default function Home() {
     ScrollTrigger.create({
       trigger: ".sticky-cards", 
       start: "top top", 
-      end: `+=${window.innerHeight*8}px`, 
+      end: `+=${window.innerHeight*2}px`, 
       pin: true, 
       pinSpacing: true,
       scrub: 1,
@@ -39,18 +39,36 @@ export default function Home() {
           totalCards - 1,
         );
 
+
+        // Same example: progress = 0.4, activeIndex = 1, segmentSize = 0.25.
+        // Card 1’s slice starts at:
+        // activeIndex * segmentSize = 1 * 0.25 = 0.25
+        // We are at progress = 0.4.
+        // So inside this card’s slice we have moved:
+        // progress - (start of slice) = 0.4 - 0.25 = 0.15
+        // So we’re 0.15 into a slice that is 0.25 long.
+
+        // Step 4: Turn “0.15 out of 0.25” into “0 to 1”
+        // Right now we have: “0.15 in a segment of size 0.25”.
+        // To get “how far through this card’s part” as a 0→1 value, we divide by the segment size:
+        // segProgress = 0.15 / 0.25 = 0.6
+        // So: 60% through this card’s part → segProgress = 0.6.
+        // In one line, that’s:
+        // segProgress = (progress - activeIndex * segmentSize) / segmentSize
+        // which is:
+        // (how far into this slice) / (length of slice) = 0 to 1 for this card.
         const segProgress = (progress - activeIndex * segmentSize) / segmentSize;
 
         cards.forEach((card, i) => {
-          if( i < activeIndex) {
+          if(i < activeIndex) {
             gsap.set(card, {
-              yPercent: -250, 
-              rotationX: 35,
+              yPercent: 250, 
+              rotationX: 10,
             })
           } else if(i === activeIndex){
             gsap.set(card, {
               yPercent: gsap.utils.interpolate(-50, -200, segProgress), 
-              rotationX: gsap.utils.interpolate(0, 35, segProgress), 
+              rotationX: gsap.utils.interpolate(0, 40, segProgress), 
               scale: 1,
             })
           } else{
@@ -63,6 +81,7 @@ export default function Home() {
               rotationX: 0, 
               scale: currentScale,
             })
+
           }
         })
 
