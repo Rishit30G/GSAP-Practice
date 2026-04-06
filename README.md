@@ -11,7 +11,6 @@ https://github.com/user-attachments/assets/f1dd8b4a-5856-47d4-8262-8695d53a64b4
 
 https://github.com/user-attachments/assets/8e7c9098-08c3-4620-8970-42cb26c2edb7
 
-
 ### Cursor Trail
 
 https://github.com/user-attachments/assets/e93f0a15-9c96-42bb-8f23-9a53fb7e153f
@@ -96,6 +95,9 @@ https://github.com/user-attachments/assets/69445252-e057-43db-93c0-4c07118cdafb
 
 https://github.com/user-attachments/assets/2755a843-510c-4e01-b2dd-1c711520a55c
 
+### Parallax Photo Wall 
+
+https://github.com/user-attachments/assets/46ed125c-c735-4e9d-bb6c-2d2cf209e87c
 
 
 
